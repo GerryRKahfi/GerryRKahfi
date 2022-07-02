@@ -1,1 +1,1 @@
-web: gunicorn run:app
+web: gunicorn tes:app --reload --workers 2
